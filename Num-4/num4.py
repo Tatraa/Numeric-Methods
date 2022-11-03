@@ -64,7 +64,7 @@ print()
 checkFromNumpy()   
 
 # Testing
-# More gap we doing beetween in the loop on line 70 the faster it compiles, which is obvious because there is not as many dots to render, be patient :)
+# More gap we doing beetween in the loop on line 74 the faster it compiles, which is obvious because there is not as many dots to render, be patient :)
 
 booltemp = True
 temp = []
