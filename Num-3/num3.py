@@ -61,7 +61,7 @@ def ownMethod():
 
     end = time.time()-start
 
-    print("Szukane rozwiązanie to =", x)
+    print("Szukane rozwiazanie to =", x)
     print()
     print("Wyznacznik macierzy A =", det)
 
