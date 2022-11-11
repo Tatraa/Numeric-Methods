@@ -71,7 +71,7 @@ temp = []
 num = []
 mine = []
 
-for i in range(1, 2000, 3):
+for i in range(1, 10000, 200):
     N = i
     temp.append(N)
     b = [5] * N
