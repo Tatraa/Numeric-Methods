@@ -1,3 +1,6 @@
+# Pytania z Metod numerycznych
+### Rok 2022/23
+
 - splajny
 - metoda najszybszego spadku, co to, kiedy to, co zrobić z wyliczonym gradientem, kiedy przestać, co jak przestrzele
 - cholesky: jaka złożoność, jaka złożoność dla macierzy rzadkich, co zrobić jak wypełnienie
