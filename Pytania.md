@@ -1,2 +1,198 @@
-1. splajny 
-2. metody najszybszego spadku
+- splajny
+- metoda najszybszego spadku, co to, kiedy to, co zrobić z wyliczonym gradientem, kiedy przestać, co jak przestrzele
+- cholesky: jaka złożoność, jaka złożoność dla macierzy rzadkich, co zrobić jak wypełnienie
+- metody na znalezienie miejsc zerowych
+- splajny :sadge:
+- Interpolacja: co to i jakie są sposoby (Lagrange, wielomianowa), złożoności w różnych przypadkach
+- Metoda Laguerra: pierwiastki wielomianów
+- splajny wszystko
+- QR: dokładnie opisać procedure + skąd bierze się ten rozkład
+- Minimalizacja jednej zmiennej: jak wybieramy trzy początkowe punkty, jakie są metody, które lepsze
+- Minimalizacja Brenta: ogólnie, czemu lepsza od złotego podziału, cholesky, metody iteracyjne, skąd wynika mniejsza złożoność metod iteracyjnych
+- metoda najszybszego spadku(zaczął do mnie w stylu: jak dobrze pan wie, dzisiaj o to pytam) (co to, jak wyglądają kroki, napisać jak zmienia się x w kolejnej iteracji, czy gradient liczymy w każdej iteracji, co jezeli f(x') < f(x), a co jeżeli na odwrót, jaki to typ minimalizacji - że daleko od minimum i czym ten typ się charakteryzuje - że noe minimalizujemy, tylko jak najszybciej do obszaru minimum)
+- funkcje sklejane catmulla-roma (różnice między zwykłymi splajnami - że catmulla-roma nie używa drugich pochodnych oraz że catmull-rom nie potrzebuje znać wszystkich węzłów, co to, czym się charakteryzują, ile punktów potrzeba)
+- Levenberg (bardzo dokladnie, co robimy z hesjanem w tej metodzie)
+- Metoda gradientow sprzezonych tez dosyc dokladnie
+- Gradient Descent (opisac wszystkie kroki po kolei i co bym zrobil w kolejnych iteracjach)
+- miejsca zerowe wielomianu(Laguerre, deflacja itd, czemu Laguerre jest lepszy od Newtona przy szukaniu pierwiastków)
+- rozkład QR opisać i jak potem mamy Ax=b to jak uzyc faktoryzacji QR do tego
+- metoda najszybszego spadku
+- splajny bikubiczne
+- aproksymacja
+- Metoda najszybszego spadku, dokładnie algorytm
+Cholesky, na czym polega, jakie są wady, jak można usprawnić (powiedziałem że LDL)
+- Na czym polega LDL I kazał rozpisać jak rozwiązać układ z taką faktoryzacją i w jakim czasie poszczególne etapy
+- splajny i jak ich sie używa
+- minimalizacja
+- splajny, zapytał dokładnie skąd się bierze ksi, jako że nie jest nam wcześniej znane
+- minimalizacja jednego punktu, w Brencie zapytał czy na pewno szukamy po dwóch punktach, palnąłem jakąś głupotę pewnie xd
+- Pivoting, jak z minimilalizacji wielu zmiennych przejść do minimalizacji jednej
+- metoda najszybszego spadku algorytm i warunki stopu
+- wszystko o splajnach, szczególnie złożoności 
+- znajdowanie miejsc zerowych, szczególnie falsi i newton
+- Brent 
+- splajny
+- Interpolacja
+- Splajny
+- Metoda trapezów i złożony wzór trapezów
+- Naturalne splajny kubiczne
+- miejsca zerowe wielomianow(laguerre, czemu nie newton)
+- Metody rozwiązywania równań algebraicznych, dlaczego Newton jest popularniejszy niż inne metody. Kiedy Newton nie zadziała.
+- Dokładnie metoda najszybszego spadku, kiedy kończymy
+- Metody minimalizacji funkcji jednej zmiennej(czemu brent lepszy od zlotego podzialu)
+- Splajny (jak liczyć ksi) 
+- Laguerr
+- Pivoting na wyciągnięcie
+- minimalizacji jednej zmiennej- pytał o dosłownie wszystko, narysować punkty i mi d w różnych miejscach rysował
+- na odchodne lavenberga 
+- Splajny
+- Miejsca zerowe
+- met najszybszego spadku
+- Jacobi i Gauss Seidel i które jest lepsze do zrównoleglnia
+- Faktoryzacja Cholesky'ego.
+- Metoda stycznych Newtona.
+-  Faktoryzacja QR
+-  Naturalne splajny kubiczne
+- Faktoryzacja LU (wszystko, jaki pivoting możliwy, i po co pivotować)
+- Miejsca zerowe wielomianów (wymienić, opisać metody, kryterium stopu)
+- Splajny, rzucił w sumie splajny kubiczne a ja zaczęłam od tego czym są splajny i w sumie jak chciałam przejść do kubicznych to powiedział że zmianiamy temat, a i o węzłach równoodległych
+- Rozwiązywanie równań algebraicznych, zaczęłam mówić jakie są sposoby, to kazał więcej o bisekcji i o kryterium stopu
+- Cholesky, co jak wypełnienie, potem trochę o iteracyjnych
+- Szukanie miejsc zerowych wielomianów, czemu Laguerre  lepszy niż Newton
+- QR, zapytał o złożoność rozwiązywania i jak rozwiązać dla Ax=b postać, wymieniłem mu metody
+- Splajny, powtorzyly się z zerówki, zapytał o zwykle i naturalne
+- Pivoting 
+- Metoda Newtona 
+- Jeszcze pytał o Newtona wymierne, żeby podnieść ocenę
+-  Laguerre
+- Metoda najszybszego spadku (co to, kiedy stosować, cały algorytm, kiedy stopujemy)
+- splajny Catmulla-Roma (porównać z splajnami kubicznymi)
+- najszybszy spadek
+- Triangulacje, czym są, gdzie występują, jak się je robi :sadpepe:
+- Kwadratury, ogólnie o nich, czym są, złożone itd itd
+- Kwadratury adaptacyjne, wyjaśnić jak to działa 
+- Metody rozwiązywania równań algebraicznych: bisekcji, siecznych, Newtona
+- Laguerre
+- Splajny Catmulla-Roma
+- Metoda najszybszego spadku (dlaczego zmniejszamy gammę gdy wyjdzie większa wartość )
+- Metoda trapezów, złożony wzór trapezów i do czego możemy go wykorzystać(do ekstrapolacji Richardsona i zapytał potem co to ta ekstrapolacja)
+- Złożony wzór trapezów
+- Ekstrapolacja Richardsona
+- Catmull-Rom
+- Minimalizacja jednej zmiennej 
+- Miejsca zerowe wielomianów
+- Metoda trapezów, zagiąłem się przy kryterium kiedy przestajemy dzielić na podtrapezy XD próbował mnie naprowadzić
+- Gradient descent. Powiedziałem algorytm i essa
+- Metoda gradientów sprzężonych
+- Catmull-Rom
+- Wszystko o minimalizacji funkcji jednej zmiennej
+- Splajny
+- Gradient descent
+- Eliminacja Gaussa i pivoting
+- splajny (wszystko) 
+- QR
+- falsi, interpolacja odwrotna
+- Romberg i Richardson
+- Metoda najszybszego spadku
+-  Minimalizacja jednej zmiennej (wymienić metody, czemu Brent lepszy, powiedziałam, że może szybciej zbiegać  niż liniowo, zapytał się dlaczego i jak szereg Taylora zachowuje się w minimum
+- miejsca zerowe wielomianów (Laguerr, czemu lepszy niz Newton)
+- aproksymacja (liniowe zagadnienie najmniejszych kwadratow)
+- svd
+- Szukanie minimum
+- metoda Romberga
+- minimum jednej zmiennej
+- powell 
+- metoda newtona
+- minimum jednej zmiennej 
+- lavenberga marquadta
+- Naturalne splajny kubiczne
+-  Laguer
+- Deflacja 
+- Metoda newtona
+- Metoda najszybszego spadku
+- Całki, pytał o złożony wzór trapezów i ekstrapolację Richardsona. Zapytał czy przy podziale na podprzedzialy błąd nie wzrośnie i pytał jeszcze o kryterium stopu
+- Metoda najszybszego spadku
+- QR
+- Minimalizacja jednej zmiennej
+- Odwracanie macierzy
+- Metoda zlozonych trapezów
+- romberg 
+- Minimalizacja jednej zmiennej
+- Levenberga Marquadta (skupił się na dodatniej określoności hesjanu)
+- Splajny Catmulla Roma, roznica miedzy nimi a splajnami kubicznymi
+- Splajny naturalne kubiczne
+- Gradient descent
+- Najmniejsze kwadraty
+- Cholesky
+- Splajny
+- minimalizacja
+- Laguerre
+- pivoting
+- Miejsca zerowe wielomianu
+- Minimalizacja funkcji jednej zmiennej.
+- Naturalny splajn kubiczny
+- Metoda Romberga
+- Catmull-Rom
+- Metodą potęgowa
+-  Lavenberg
+- Cholesky
+- interpolacja Lagrange'a
+- minimalizacja
+- gradient decent
+- Metody rozwiązań równań algebraicznych (dokładniej bisekcji falsi newtona oraz interpolacja odwrotna)
+- Newton wielowymiarowo
+- Splajny Catmulla-Roma
+-  Splajny Catmulla-Roma 
+- Miejsca zerowe wielomianu (metoda Laguerra) dlaczego lepsza niż Newtona
+- Metoda Laguerra (dopytywał o kryterium stopu)
+- Metoda najszybszego spadku (też kryterium stopu)
+- gradient descent
+-  liniowe zagadnienie najmniejszych kwadratow
+- deflacja (xd) i powiedzialem od razu caly temat poszukiwania miejsca zerowego
+- liniowe zagadnienie najmniejszych kwadratów
+- Faktoryzacja Choleskiego
+- Lagrange
+- Liniowe zagadnienie najmniejszych kwadratów
+- Naturalne splajny kubiczne
+- Triangulacje
+- W jakiej sytuacji obliczamy dosłowną wartość macierzy odwrotnej i jak to robimy
+- gradient descent kryterium stopu, jak wyznaczamy o ile się przesunąć
+- Liniowe zagadnienie najmniejszych kwadratów
+- Trochę SVD
+- Stochastic gradient descent
+- miejsca zerowe wielomianu
+- liniowe zagadnienie najmniejszych kwadratów
+- Naturalne splajny kubiczne
+- Złożone trapezy i Richardson
+- Jawne wyliczanie macierzy odwrotnej
+- Gradient descent skąd zacząć, jak działa i jakie jest kryterium stopu
+-  Całkowanie
+- Metoda Newtona
+-  Splajny
+- Minimalizacja funkcji jednej zmiennej
+- Co robimy gdy wiemy że jesteśmy blisko minimum. Potem zapytał o Leverberga-Marquata
+- Splajny Catmulla-Roma
+- Metoda najszybszego spadku (dopytywał o warunek stopu
+- Metoda najmniejszych kwadratów
+- Minimalizacja 1 zm.
+-  Lagrange, skąd się bierze O(max(n^2, m*n))
+- Rownania algebraiczne, opisac metody, warunki w bisekcji(zmiana znaku i ciągłość funkcji) i kiedy newton nie zbiega(z wzoru gdy pochodna = 0)
+- Minimalizacja funkcji 1 zmiennej, narysował punkty na tablicy i przestawiał je w każdy możliwy sposób i pytał się czy jest ok (nie było :Sadge:)
+- Lagrange, skąd się bierze O(max(n^2, m*n))
+- Miejsca zerowe wielomianów, Laguerre
+- Naturalny splajn kubiczny
+- minimalizacja jednej zmiennej
+- metoda trapezów
+- faktoryzacja QR
+- metoda gradientów sprzężonych
+- naturalny splajn kubiczny
+- metoda laguerre'a
+-  Metoda Laguerre’a  (kazał napisać wielomian po deflacji)
+- Metoda najszybszego spadku
+- Splajny, w szczególności naturalny splajn kubiczny, jak wyliczyć w praktyce.
+- Znajdowanie miejsc zerowych, jakie funkcje znasz
+
+
+
+
+
