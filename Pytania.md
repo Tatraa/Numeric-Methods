@@ -1,4 +1,4 @@
-# Pytania z Metod numerycznych
+# Pytania z Metod numerycznych 🧑‍🦽
 ### Rok 2022/23
 
 - splajny
