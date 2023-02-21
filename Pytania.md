@@ -194,6 +194,20 @@ Cholesky, na czym polega, jakie są wady, jak można usprawnić (powiedziałem �
 - Metoda najszybszego spadku
 - Splajny, w szczególności naturalny splajn kubiczny, jak wyliczyć w praktyce.
 - Znajdowanie miejsc zerowych, jakie funkcje znasz
+- Levenberg dokładnie, dopytywał o dodatnią wartość hessjanu i skąd wiemy, że tam akurat jest minimum
+- UDOWODNIĆ że Cholesky jest liniowy dla macierzy trójdiagonalnej
+- Metoda potęgowa
+- Minimalizacja jednej zmiennej
+- QR
+- Lagrange
+- Gradient Descent
+- Cholesky
+- Naturalny splajn kubiczny
+- Miejsca zerowe wielomianów
+- Liniowe zagadnienie najmniejszych kwadratów
+- Splajny
+- Gradient Descent
+- Metody znajdywania miejsc zerowych
 
 
 
