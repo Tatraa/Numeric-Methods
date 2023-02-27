@@ -209,7 +209,7 @@ Cholesky, na czym polega, jakie są wady, jak można usprawnić (powiedziałem �
 - Gradient Descent
 - Metody znajdywania miejsc zerowych
 
-
+# 💀
 
 
 
